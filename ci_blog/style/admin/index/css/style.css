@@ -1,0 +1,228 @@
+@charset "utf-8";
+/**CSS Reset 开始**/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,
+big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,
+dl,dt,dd,ol,ul,li,fieldset,form,label,lagend,table,caption,tbody,tfoot,thead,tr,th,td,article,
+aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,
+summary,time,mark,audio,video{
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+	margin:0;
+	padding:0;
+}
+blockquote,q {quotes:none;}
+blockquote:before,blockquote:after,q:before {content:none;}
+table {border-collapse:collapse,border-spacing:0;}
+/**CSS Rest 结束**/
+
+/**公共样式开始**/
+body,th,td,button,input,select,textarea {font:12px/1.62 "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdama,sans-serif;color: #333;}
+ol,ul {list-style:none;}
+img {border:0;vertical-align:middle;}
+a{text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());}
+h1{font-size:36px;}
+h2{font-size:30px;}
+h3{font-size:24px;}
+h4{font-size:18px;}
+h5{font-size:14px;}
+h6{font-size:12px;}
+.left, .l {float:left;}
+.right, .r {float:right;}
+.clearfix, .cf{*zoom:1}
+.clearfix:after, .cf:after {content:".";display: block; height: 0;clear: both;cisibility: hidden;}
+.clear, cl {clear : both;}
+/**公共样式结束**/
+
+/*发表文章界面样式开始*/
+.header
+{
+	width:100%;
+	height:60px;
+	background-color:#48525e; 
+}
+.header p
+{
+	float:left;
+	margin-left:50px;
+	font-size : 25px;
+	margin-top:10px;
+	color:#cee9ee;
+}
+.logout_picture
+{
+	float:left;
+	margin-left:980px;
+	margin-top:18px;
+}
+.logout
+{
+	float:right;
+	margin-right:35px;
+	margin-top:16px;
+	background-color:#48525e;
+	border:none;
+	color:#cee9ee;
+	outline:none;
+	font-size:17px;
+	cursor:pointer;
+}
+.menu_list
+{
+	color:#cee9ee;
+	margin-left:80px;
+	margin-top:40px;
+	line-height:250%;
+	font-size:17px;
+	text-align: center;
+	width:200px;
+	cursor:pointer;
+	background-color:#708090;
+	border-radius: 8px;
+}
+.menu1
+{
+	font-size:23px;
+	border-radius: 8px;
+	background-color:#48525e;
+}
+.menu2
+{
+	font-size:23px;
+	border-radius: 8px;
+	background-color:#48525e;
+}
+.main_body
+{
+	margin-left:390px;
+	margin-top:-265px;
+	width:900px;
+	font-size:20px;
+	color:#cee9ee;
+	line-height:300%;
+}
+.c_pwd
+{
+	height:28px;
+	width:200px;
+	border:none;
+	border-radius:5px;
+	padding-left:10px;
+	font-size:17px;
+}
+.c_name
+{
+	height:28px;
+	width:200px;
+	border:none;
+	border-radius:5px;
+	padding-left:10px;
+	font-size:17px;
+}
+.c_describe
+{
+	position:absolute;
+	top:220px;
+	left:494px;
+	height:80px;
+	width:503px;
+	border:none;
+	border-radius:5px;
+	padding-left:3px;
+	font-size:17px;
+}
+.ad_signature
+{
+	position:absolute;
+	top:310px;
+	left:493px;
+	height:110px;
+	width:500px;
+	border:none;
+	border-radius:5px;
+	padding-left:3px;
+	font-size:17px;
+}
+.c_signature
+{
+
+	margin-top:20px;
+	height:130px;
+	width:500px;
+	border:none;
+	border-radius:5px;
+	padding-left:5px;
+	font-size:17px;
+	position:absolute;
+
+}
+.picture
+{
+	position:absolute;
+	margin-left:480px;
+	margin-top:-130px;
+}
+.header_picture
+{
+	position:absolute;
+	top:18px;
+	left:50px;
+	border-radius:5px;
+}
+.file {
+    position: relative;
+    width:57px;
+    left:49px;
+    top:95px;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+.file input {
+    position: absolute;
+    right: 5;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+.change_picture:hover
+{
+	background-color:#5CACEE;
+}
+.save
+{
+	float:right;
+	margin-right:370px;
+	margin-top:280px;
+	width:100px;
+	height:30px;
+	border:none;
+	background-color:#4F94CD;
+	border-radius:5px;
+	color:#cee9ee;
+	font-size:15px;
+}
+.save:hover
+{
+	background-color:#5CACEE;
+}
+.head_image
+{
+	position:absolute;
+	top:100px;
+	left:900px;
+}
